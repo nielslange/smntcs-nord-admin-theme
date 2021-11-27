@@ -1,0 +1,1 @@
+# smntcs-nord-admin-theme
