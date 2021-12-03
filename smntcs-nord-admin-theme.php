@@ -19,15 +19,15 @@ function smntcs_wp_admin_css_color() {
 
     wp_admin_css_color(
         'nord',
-        __('Nord', 'smntcs-nord-admin-theme'),
+        __( 'Nord', 'smntcs-nord-admin-theme' ),
         plugins_url( "/nord/colors$suffix.css", __FILE__ ),
-        array( '#3B4252', '#5E81AC', '#81A1C1', '#88C0D0' ),
-        array(
+        [ '#3B4252', '#5E81AC', '#81A1C1', '#88C0D0' ],
+        [
         'base'    => '#a7aaad',
         'focus'   => '#72aee6',
         'current' => '#fff',
-        )
+        ]
     );
 }
 
-add_action('admin_init', 'smntcs_wp_admin_css_color');
+add_action( 'admin_init', 'smntcs_wp_admin_css_color' );
