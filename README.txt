@@ -10,3 +10,22 @@ License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Adds an admin theme based on the Nord Theme color scheme.
+
+== Installation ==
+
+1. Upload 'smntcs-nord-admin-theme' to the '/wp-content/plugins/' directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Activate the SMNTCS Nord Admin Theme through the 'Profile' menu.
+
+== Contribute ==
+
+Contributions are more than welcome. Simply head over to [Github](https://github.com/nielslange/smntcs-nord-admin-theme/) and open an issue or a pull request.
+
+== Credits ==
+
+The colors used in this plugin are based on the fantastic [Nord](https://www.nordtheme.com/) color scheme created by [Arctic Ice Studio](https://www.arcticicestudio.com/) & [Sven Greb](https://svengreb.de/).
+
+== Changelog ==
+
+= 1.0 (2021-12-03) =
+* Initial release
