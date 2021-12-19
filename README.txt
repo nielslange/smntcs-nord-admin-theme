@@ -13,9 +13,9 @@ Adds an admin theme based on the Nord Theme color scheme.
 
 == Installation ==
 
-1. Upload 'smntcs-nord-admin-theme' to the '/wp-content/plugins/' directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Activate the SMNTCS Nord Admin Theme through the 'Profile' menu.
+1. Upload `smntcs-nord-admin-theme` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the `Plugins` menu in WordPress
+3. Go to `Users → Profile` and activate the `Nord Admin Color Scheme`.
 
 == Contribute ==
 
@@ -28,4 +28,5 @@ The colors used in this plugin are based on the fantastic [Nord](https://www.nor
 == Changelog ==
 
 = 1.0 (2021-12-03) =
-* Initial release
+
+- Initial release
