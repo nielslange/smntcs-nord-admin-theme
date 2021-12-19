@@ -13,7 +13,10 @@
  * Text Domain:       smntcs-nord-admin-theme
  */
 
-function smntcs_wp_admin_css_color() {
+ /**
+  *
+  */
+function smntcs_nat_admin_init() {
     $suffix  = is_rtl() ? '-rtl' : '';
     $suffix .= SCRIPT_DEBUG ? '' : '.min';
 
@@ -30,4 +33,21 @@ function smntcs_wp_admin_css_color() {
     );
 }
 
-add_action( 'admin_init', 'smntcs_wp_admin_css_color' );
+add_action( 'admin_init', 'smntcs_nat_admin_init' );
+
+/**
+ * Add settings link on plugin page
+ *
+ * @param array $url The original URL.
+ * @return array The updated URL.
+ * @since 1.0.0
+ */
+function smntcs_nat_plugin_settings_link( $url ) {
+	$admin_url     = admin_url( 'profile.php' );
+	$settings_link = '<a href="' . $admin_url . '">' . __( 'Settings', 'smntcs-nord-admin-theme' ) . '</a>';
+	array_unshift( $url, $settings_link );
+
+	return $url;
+}
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'smntcs_nat_plugin_settings_link' );
+
