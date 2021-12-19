@@ -7,6 +7,7 @@
 ![Compatible to PHP version](https://plugintests.com/plugins/smntcs-nord-admin-theme/php-badge.svg)
 ![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-nord-admin-theme.svg)
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-nord-admin-theme.svg)
+![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-nord-admin-theme.svg)
 
 Adds a custom admin theme based on the Nord theme.
 
