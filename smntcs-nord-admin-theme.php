@@ -3,12 +3,13 @@
  * Plugin Name:       SMNTCS Nord Admin Theme
  * Plugin URI:        https://github.com/nielslange/smntcs-nord-admin-theme/
  * Description:       Adds an admin theme based on the Nord Theme color scheme.
- * Version:           1.0
+ * Version:           1.1
+ * Tested up to:      5.8
  * Requires at least: 5.2
- * Requires PHP:      7.2
+ * Requires PHP:      7.3
  * Author:            Niels Lange
  * Author URI:        https://nielslange.de/
- * License:           GPL v2 or later
+ * License:           GPLv2+
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       smntcs-nord-admin-theme
  */
