@@ -3,7 +3,7 @@ name: Run PHPCS, PHPLint, Psalm and Cypress
 on: [pull_request]
 
 jobs:
-    PHPS:
+    PHPCS:
         runs-on: ubuntu-latest
 
         steps:
