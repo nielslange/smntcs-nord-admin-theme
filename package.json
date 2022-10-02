@@ -1,38 +1,38 @@
 {
-  "name": "smntcs-nord-admin-theme",
-  "description": "Adds an admin theme based on the Nord Theme color scheme.",
-  "license": "GPL-2.0-or-later",
-  "keywords": [
-    "WordPress",
-    "Plugin",
-    "SMNTCS Google Analytics"
-  ],
-  "homepage": "https://github.com/nielslange/smntcs-nord-admin-theme#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nielslange/smntcs-nord-admin-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nielslange/smntcs-nord-admin-theme/issues"
-  },
-  "devDependencies": {
-    "@wordpress/env": "^4.1",
-    "@wordpress/prettier-config": "1.1.1",
-    "cypress": "^9.1",
-    "eslint": "^7.32.0",
-    "node-sass": "^6.0.1",
-    "npm-run-all": "^4.1.5",
-    "prettier": "npm:wp-prettier@2.0.5",
-    "rtlcss": "^3.5.0"
-  },
-  "scripts": {
-    "build": "run-s \"build:*\"",
-    "build:css": "node-sass --include-path scss nord/colors.scss nord/colors.css --output-style expanded",
-    "build:min": "node-sass --include-path scss nord/colors.scss nord/colors.min.css --output-style compressed",
-    "build:rtl": "rtlcss nord/colors.css nord/colors-rtl.css && rtlcss nord/colors.min.css nord/colors-rtl.min.css",
-    "cypress": "cypress",
-    "test-gui": "cypress open",
-    "test": "cypress run --headless --browser chrome",
-    "wp-env": "wp-env"
-  }
+	"name": "smntcs-nord-admin-theme",
+	"description": "Adds an admin theme based on the Nord Theme color scheme.",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Google Analytics"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-nord-admin-theme#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-nord-admin-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-nord-admin-theme/issues"
+	},
+	"devDependencies": {
+		"@wordpress/env": "4.1.3",
+		"@wordpress/prettier-config": "1.1.1",
+		"cypress": "^9.1",
+		"eslint": "^7.32.0",
+		"node-sass": "^6.0.1",
+		"npm-run-all": "^4.1.5",
+		"prettier": "npm:wp-prettier@2.0.5",
+		"rtlcss": "^3.5.0"
+	},
+	"scripts": {
+		"build": "run-s \"build:*\"",
+		"build:css": "node-sass --include-path scss nord/colors.scss nord/colors.css --output-style expanded",
+		"build:min": "node-sass --include-path scss nord/colors.scss nord/colors.min.css --output-style compressed",
+		"build:rtl": "rtlcss nord/colors.css nord/colors-rtl.css && rtlcss nord/colors.min.css nord/colors-rtl.min.css",
+		"cypress": "cypress",
+		"test:e2e": "cypress run --headless --browser chrome",
+		"test:e2e-dev": "cypress open",
+		"wp-env": "wp-env"
+	}
 }

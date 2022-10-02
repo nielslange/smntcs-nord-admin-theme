@@ -9,12 +9,12 @@
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-nord-admin-theme.svg)
 ![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-nord-admin-theme.svg)
 
-Adds a custom admin theme based on the Nord theme.
+Adds an admin theme based on the [Nord Theme](https://www.nordtheme.com/) color scheme.
 
 ## Installation
 
-1. Upload `smntcs-nord-admin-theme` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the `Plugins` menu in WordPress
+1. Upload `smntcs-nord-admin-theme` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the `Plugins` menu in WordPress.
 3. Go to `Users → Profile` and activate the `Nord Admin Color Scheme`.
 
 ## Plugin page
@@ -22,6 +22,10 @@ Adds a custom admin theme based on the Nord theme.
 You can find the plugin on https://wordpress.org/plugins/smntcs-nord-admin-theme/.
 
 ## Changelog
+
+### 1.2 (2022-10-03) =
+
+-   Test up to WP 6.0
 
 ### 1.1 (2021-12-19)
 
