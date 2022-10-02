@@ -19,7 +19,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- *
+ * SMNTCS_Nord_Admin_Theme main class.
  */
 class SMNTCS_Nord_Admin_Theme {
 
