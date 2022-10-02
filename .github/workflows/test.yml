@@ -5,7 +5,6 @@ on: [pull_request]
 jobs:
   PHPCS:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,7 +23,6 @@ jobs:
 
   PHPLint:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -40,7 +38,6 @@ jobs:
 
   Psalm:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
