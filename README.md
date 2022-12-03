@@ -23,11 +23,11 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-nord-admin-theme
 
 ## Changelog
 
-### 1.3 (2022.12.03) =
+### 1.3 (2022.12.03)
 
 -   Test up to WP 6.1
 
-### 1.2 (2022.10.03) =
+### 1.2 (2022.10.03)
 
 -   Test up to WP 6.0
 
