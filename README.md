@@ -2,7 +2,7 @@
 
 ![Support Level](https://img.shields.io/badge/support-active-green.svg)
 ![Build Status](https://github.com/nielslange/smntcs-nord-admin-theme/actions/workflows/test.yml/badge.svg)
-![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-nord-admin-theme.svg)
+![GPLv2 License](https://img.shields.io/github/license/nielslange/smntcs-nord-admin-theme.svg)
 ![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-nord-admin-theme/wp-badge.svg)
 ![Compatible to PHP version](https://plugintests.com/plugins/smntcs-nord-admin-theme/php-badge.svg)
 ![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-nord-admin-theme.svg)
@@ -23,17 +23,21 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-nord-admin-theme
 
 ## Changelog
 
-### 1.2 (2022-10-03) =
+### 1.3 (2022.12.03) =
+
+-   Test up to WP 6.1
+
+### 1.2 (2022.10.03) =
 
 -   Test up to WP 6.0
 
-### 1.1 (2021-12-19)
+### 1.1 (2021.12.19)
 
 -   [Add e2e tests](https://github.com/nielslange/smntcs-nord-admin-theme/pull/2)
 -   [Update README.txt and README.md](https://github.com/nielslange/smntcs-nord-admin-theme/pull/3)
 -   Test up to WP 5.8
 
-### 1.0 (2021-12-03)
+### 1.0 (2021.12.03)
 
 -   Initial release
 
