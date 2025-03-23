@@ -20,15 +20,15 @@
 		"@wordpress/prettier-config": "1.1.1",
 		"cypress": "^9.1",
 		"eslint": "^7.32.0",
-		"node-sass": "^6.0.1",
+		"sass": "^1.72.0",
 		"npm-run-all": "^4.1.5",
 		"prettier": "npm:wp-prettier@2.0.5",
 		"rtlcss": "^3.5.0"
 	},
 	"scripts": {
 		"build": "run-s \"build:*\"",
-		"build:css": "node-sass --include-path scss nord/colors.scss nord/colors.css --output-style expanded",
-		"build:min": "node-sass --include-path scss nord/colors.scss nord/colors.min.css --output-style compressed",
+		"build:css": "sass --style=expanded nord/colors.scss:nord/colors.css",
+		"build:min": "sass --style=compressed nord/colors.scss:nord/colors.min.css",
 		"build:rtl": "rtlcss nord/colors.css nord/colors-rtl.css && rtlcss nord/colors.min.css nord/colors-rtl.min.css",
 		"cypress": "cypress",
 		"test:e2e": "cypress run --headless --browser chrome",

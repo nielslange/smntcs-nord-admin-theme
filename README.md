@@ -19,31 +19,35 @@ Adds an admin theme based on the [Nord Theme](https://www.nordtheme.com/) color 
 
 ## Plugin page
 
-You can find the plugin on https://wordpress.org/plugins/smntcs-nord-admin-theme/.
+You can find the plugin on [WordPress.org](https://wordpress.org/plugins/smntcs-nord-admin-theme/).
 
 ## Changelog
 
+### 1.5 (2025.03.23)
+
+- Test up to WordPress 6.8
+
 ### 1.4 (2023.10.21)
 
--   Test up to WP 6.4
+- Test up to WordPress 6.4
 
 ### 1.3 (2022.12.03)
 
--   Test up to WP 6.1
+- Test up to WordPress 6.1
 
 ### 1.2 (2022.10.03)
 
--   Test up to WP 6.0
+- Test up to WordPress 6.0
 
 ### 1.1 (2021.12.19)
 
--   [Add e2e tests](https://github.com/nielslange/smntcs-nord-admin-theme/pull/2)
--   [Update README.txt and README.md](https://github.com/nielslange/smntcs-nord-admin-theme/pull/3)
--   Test up to WP 5.8
+- [Add e2e tests](https://github.com/nielslange/smntcs-nord-admin-theme/pull/2)
+- [Update README.txt and README.md](https://github.com/nielslange/smntcs-nord-admin-theme/pull/3)
+- Test up to WordPress 5.8
 
 ### 1.0 (2021.12.03)
 
--   Initial release
+- Initial release
 
 ## Credits
 

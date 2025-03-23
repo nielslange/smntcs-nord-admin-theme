@@ -6,9 +6,9 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-nord-admin-theme
- * Version:               1.4
+ * Version:               1.5
  * Requires at least:     5.2
- * Requires PHP:          5.6
+ * Requires PHP:          7.4
  * License:               GPL-2.0-or-later
  * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
  *
