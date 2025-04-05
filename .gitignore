@@ -1,5 +1,23 @@
-node_modules
-vendor
-phplint.cache
-.phplint-cache
+# System files
 .DS_Store
+.idea
+.svn
+
+# Caching files
+/.phpcs.cache
+/.phplint.cache
+
+# Lock files
+composer.lock
+package-lock.json
+
+# Folders
+node_modules/
+vendor/
+
+# Testing and Reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/.phpcs.cache

@@ -16,13 +16,14 @@
 		"url": "https://github.com/nielslange/smntcs-nord-admin-theme/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "4.1.3",
-		"@wordpress/prettier-config": "1.1.1",
-		"cypress": "14.2.0",
-		"eslint": "9.23.0",
-		"sass": "1.86.0",
+		"@wordpress/env": "10.21.0",
+		"@wordpress/prettier-config": "4.21.0",
+		"@playwright/test": "1.51.1",
+		"@types/node": "22.14.0",
+		"eslint": "9.24.0",
+		"sass": "1.86.3",
 		"npm-run-all": "^4.1.5",
-		"prettier": "npm:wp-prettier@2.0.5",
+		"prettier": "npm:wp-prettier@3.0.3",
 		"rtlcss": "4.3.0"
 	},
 	"scripts": {
@@ -30,10 +31,8 @@
 		"build:css": "sass --style=expanded nord/colors.scss:nord/colors.css",
 		"build:min": "sass --style=compressed nord/colors.scss:nord/colors.min.css",
 		"build:rtl": "rtlcss nord/colors.css nord/colors-rtl.css && rtlcss nord/colors.min.css nord/colors-rtl.min.css",
-		"cypress": "cypress",
-		"test:e2e": "cypress run --headless --browser chrome",
-		"test:e2e-dev": "cypress open",
-		"wp-env": "wp-env",
-		"wp-env:start": "bash ./bin/wp-env-start.sh"
+		"test:e2e": "playwright test",
+		"test:e2e:ui": "playwright test --ui",
+		"wp-env": "wp-env"
 	}
 }
