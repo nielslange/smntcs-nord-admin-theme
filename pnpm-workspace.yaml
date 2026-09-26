@@ -1,0 +1,3 @@
+allowBuilds:
+  '@parcel/watcher': true
+  'fs-ext-extra-prebuilt': true

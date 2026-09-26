@@ -21,3 +21,5 @@ vendor/
 /blob-report/
 /playwright/.cache/
 /.phpcs.cache
+cypress/screenshots
+cypress/videos

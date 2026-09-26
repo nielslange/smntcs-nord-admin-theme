@@ -4,8 +4,13 @@ test.describe( 'SMNTCS Nord Admin Theme', () => {
 	test.beforeEach( async ( { page } ) => {
 		// Log in to WordPress admin
 		await page.goto( '/wp-login.php' );
-		await page.fill( '#user_login', 'admin' );
-		await page.fill( '#user_pass', 'password' );
+		// WordPress focuses and selects the username field shortly after the
+		// login page loads. Wait for that before typing, so it cannot steal
+		// focus in the middle of filling the form.
+		await expect( page.locator( '#user_login' ) ).toBeFocused();
+		await page.locator( '#user_login' ).fill( 'admin' );
+		await page.locator( '#user_pass' ).fill( 'password' );
+		await expect( page.locator( '#user_login' ) ).toHaveValue( 'admin' );
 		await page.click( '#wp-submit' );
 		await page.waitForURL( '**/wp-admin/' );
 	} );

@@ -1,15 +1,19 @@
 === SMNTCS Nord Admin Theme ===
 
 Contributors:       nielslange
-Tags:               Admin Theme, Custom Admin Colors, Custom Colors
-Stable tag:         1.5
-Tested up to:       6.8
+Tags:               admin color scheme, admin theme, nord, dark, colors
 Requires at least:  5.2
+Tested up to:       7.1
 Requires PHP:       7.4
-License:            GPL-2.0-or-later
+Stable tag:         1.6
+License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds an admin theme based on the [Nord Theme](https://www.nordtheme.com/) color scheme.
+Adds an admin colour scheme based on the calm, arctic Nord palette.
+
+== Description ==
+
+SMNTCS Nord Admin Theme adds a new admin colour scheme based on the [Nord](https://www.nordtheme.com/) palette. Each user can choose it on their own profile page, so it does not change the admin area for anyone else.
 
 == Installation ==
 
@@ -19,13 +23,19 @@ Adds an admin theme based on the [Nord Theme](https://www.nordtheme.com/) color 
 
 == Contribute ==
 
-Contributions are more than welcome. Simply head over to [Github](https://github.com/nielslange/smntcs-nord-admin-theme/) and open an issue or a pull request.
+Contributions are more than welcome. Simply head over to [GitHub](https://github.com/nielslange/smntcs-nord-admin-theme/) and open an issue or a pull request.
 
 == Credits ==
 
 The colors used in this plugin are based on the fantastic [Nord](https://www.nordtheme.com/) color scheme created by [Arctic Ice Studio](https://www.arcticicestudio.com/) & [Sven Greb](https://svengreb.de/).
 
 == Changelog ==
+
+= 1.6 (2026.09.26) =
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Fix the plugin settings link and the number of arguments passed to hook callbacks
 
 = 1.5 (2025.03.23) =
 

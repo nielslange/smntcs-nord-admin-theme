@@ -23,6 +23,12 @@ You can find the plugin on [WordPress.org](https://wordpress.org/plugins/smntcs-
 
 ## Changelog
 
+### 1.6 (2026.09.26)
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Fix the plugin settings link and the number of arguments passed to hook callbacks
+
 ### 1.5 (2025.03.23)
 
 - Test up to WordPress 6.8
