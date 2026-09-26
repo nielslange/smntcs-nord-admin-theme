@@ -6,7 +6,7 @@
  * Author:                Niels Lange
  * Author URI:            https://nielslange.de
  * Text Domain:           smntcs-nord-admin-theme
- * Version:               1.5
+ * Version:               1.6
  * Requires at least:     5.2
  * Requires PHP:          7.4
  * License:               GPL-2.0-or-later
@@ -29,8 +29,8 @@ class SMNTCS_Nord_Admin_Theme {
 	 * @since 1.2.0
 	 */
 	public static function init() {
-		add_action( 'admin_init', array( __CLASS__, 'load_admin_css' ) );
-		add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( __CLASS__, 'add_plugin_settings_link' ) );
+		add_action( 'admin_init', array( __CLASS__, 'load_admin_css' ), 10, 0 );
+		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( __CLASS__, 'add_plugin_settings_link' ) );
 	}
 
 	/**
