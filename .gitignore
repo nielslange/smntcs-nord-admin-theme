@@ -23,3 +23,4 @@ vendor/
 /.phpcs.cache
 cypress/screenshots
 cypress/videos
+/artifacts/
